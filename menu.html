@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Enlace con páginas de estilos, y conexión a google fonts-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=League+Spartan:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&family=League+Spartan:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>MENU</title>
+</head>
+<body class="dm-sans">
+    <!--Menu de navegación para las distintas pestañas-->
+    <header>
+            <a href="index.html"><img src="imagenes\logo.png" alt="logo del restaurante" id="logo"></a>
+            <nav id="navegador">
+                <ul>
+                    <!--Direccionamiento a cada una de las pestañas que componen la pagina-->
+                    <li class="enlace"><a href="index.html" >INICIO</a></li>
+                    <li class="enlace"><a href="galeria.html">GALER&Iacute;A</a></li>
+                    <li class="enlace"><a href="promociones.html">PROMOCIONES</a></li>
+                    <li class="enlace"><a href="menu.html" id="menu">MEN&Uacute;</a></li>
+                </ul>
+            </nav>
+    </header>
+    
+    <main>
+    <section class="datos">
+        <ul class="listado">
+            <li><img src="imagenes/ubicacion.png" alt="Icono de Ubicación" class="icon"> Ap #398-2302 Mauris. St. </li>
+            <li><img src="imagenes/hora.png" alt="Icono de Reloj" class="icon"> Horario: 10:00 - 20:00</li>
+            <li><img src="imagenes/telefono.png" alt="Icono de Teléfono" class="icon"> 1-695-502-4576</li>
+            <li><img src="imagenes/correo.png" alt="Icono de Correo" class="icon"> coraliumrestaurant@gmail.com</li>
+        </ul>
+    </section>
+    <div class="presentacion"></div>
+    <!--MENU DE TODO EL RESTAURANTE-->
+
+    <!--Bloque correspondiente a la navegación del menú-->
+    <section class="menu">
+        <h1>MENÚ</h1>
+        <ul>
+            <li><a href="#entradas">Entradas</a></li>
+            <li><a href="#platillos">Platillos principales</a></li>
+            <li><a href="#postres">Postres</a></li>
+            <li><a href="#bebidas">Bebidas</a></li>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="#paquetes">Paquetes</a></li>
+        </ul> 
+    </section>
+
+    <!--Seccion correspondiente a los platillos como entradas-->
+    <section>
+        <h2 id="entradas">ENTRADAS</h2>
+        <ul class="productos">
+            <li>
+                <h3>Tostada de Camarón</h3>
+                <img src="menu/tostada_camaron.png" alt="Tostada de camaron">
+                <p class="producto-descripcion">Ola de frescura, donde camarones cocidos se combinan con cebolla morada, tomate, cilantro y un toque de chile serrano en una tostada de maíz. </p>
+                <p class="producto-precio">$70.00</p>
+            </li>
+            <li>
+                <h3>Tostada de Ceviche</h3>
+                <img src="menu/tostada_ceviche.png" alt="Tostada de ceviche">
+                <p class="producto-descripcion">Una mezcla refrescante de pescado fresco marinado en limón y naranja, con cebolla, jitomate, cilantro y chile serrano. Todo sobre una tostada crujiente.</p>
+                <p class="producto-precio">$75.00</p>
+            </li>
+            <li>
+                <h3>Tostada de Pulpo</h3>
+                <img src="menu/tostada_pulpo.png" alt="Tostada de pulpo">
+                <p class="producto-descripcion">Disfruta de la suavidad y frescura del pulpo en rodajas finas, sobre una crujiente tostada de maíz. Aderezada con limón, aceite de oliva y cilantro fresco. </p>
+                <p class="producto-precio">$70.00</p>
+            </li>
+            <li>
+                <h3>Cóctel de Camarón</h3>
+                <img src="menu/coctel_camaron.png" alt="Coctel de camaron">
+                <p class="producto-descripcion">Cóctel lleno de frescura, donde los camarones cocidos se mezclan en salsa de tomate. Servido con rodajas de aguacate y un toque de salsa picante.</p>
+                <p class="producto-precio">Chico: $90.00</p>
+                <p class="producto-precio">Grande: $140.00</p>
+                <p class="producto-precio">Bola: $180.00</p>
+            </li>
+            <li>
+                <h3>Cóctel de Ostión</h3>
+                <img src="menu/coctel_ostion.png" alt="Coctel de Ostion">
+                <p class="producto-descripcion">Cóctel exquisito que resalta el sabor natural del ostión fresco, acompañado de una mezcla de jugo de limón, salsa de tomate, cebolla morada y cilantro picado. </p>
+                <p class="producto-precio">Chico: $90.00</p>
+                <p class="producto-precio">Grande: $140.00</p>
+                <p class="producto-precio">Bola: $180.00</p>
+            </li>
+            <li>
+                <h3>Cóctel de Pulpo</h3>
+                <img src="menu/coctel_pulpo.png" alt="Coctel de pulpo">
+                <p class="producto-descripcion"> Cóctel refrescante, donde el pulpo se mezcla con una salsa a base de jitomate, cebolla morada, cilantro fresco y un toque de chile. Marinado con jugo de limón.</p>
+                <p class="producto-precio">Chico: $90.00</p>
+                <p class="producto-precio">Grande: $140.00</p>
+                <p class="producto-precio">Bola: $180.00</p>
+            </li>
+        </ul>
+    </section>
+
+    <!--Seccion correspondiente a los platillos principales-->
+    <section>
+        <h2 id="platillos">PLATILLOS PRINCIPALES</h2>
+        <ul class="productos">
+            <li>
+                <h3>Caldo de Camarón</h3>
+                <img src="menu/caldo_Camaron.png" alt="Caldo de camaron">
+                <p class="producto-descripcion">Los camarones se cocinan en un caldo sabroso a base de jitomate, cebolla, ajo y especias, con una pisca de picante.</p>
+                <p class="producto-precio">Chico: $100.00</p>
+                <p class="producto-precio">Grande: $140.00</p>
+            </li>
+            <li>
+                <h3>Caldo de Pescado</h3>
+                <img src="menu/caldo_pescado.png" alt="Caldo de pescado">
+                <p class="producto-descripcion">El pescado, se acompaña con una mezcla de vegetales frescos como cebolla, jitomate, zanahoria y ajo, sazonado con hierbas y especias.</p>
+                <p class="producto-precio">Chico: $100.00</p>
+                <p class="producto-precio">Grande: $140.00</p>
+            </li>
+            <li>
+                <h3>Caldo de Ostión</h3>
+                <img src="menu/caldo_ostion.png" alt="Caldo de Ostion">
+                <p class="producto-descripcion">Los ostiones frescos, con su sabor único y suave, se cocinan en un caldo aromático con tomate, cebolla, ajo y especias.</p>
+                <p class="producto-precio">Chico: $100.00</p>
+                <p class="producto-precio">Grande: $140.00</p>
+            </li>
+            <li>
+                <h3>Filete Empanizado</h3>
+                <img src="menu/filete_empanizado.png" alt="Filete empanizado">
+                <p class="producto-descripcion">Filete de pescado cubierto con una capa dorada y crujiente de pan rallado. Acompañado de arroz esponjoso y una fresca ensalada de jitomate, pepino y aguacate.</p>
+                <p class="producto-precio">Tamaño único: $160.00</p>
+            </li>
+            <li>
+                <h3>Filete a la Diabla</h3>
+                <img src="menu/filete_diabla.png" alt="Filete a la diabla">
+                <p class="producto-descripcion">El pescado se cocina en una salsa roja picante, elaborada con chiles secos, ajo y especias, que le dan un toque único y sabroso. Servido con arroz y una ensalada.</p>
+                <p class="producto-precio">Tamaño único: $160.00</p>
+            </li>
+            <li>
+                <h3>Filete al Mojo</h3>
+                <img src="menu/filete_mojo.png" alt="Filete al Mojo">
+                <p class="producto-descripcion">El pescado se cocina con una generosa cantidad de ajo y mantequilla, creando una salsa suave y aromáticas. Acompañado de arroz y una ensalada.</p>
+                <p class="producto-precio">Tamaño único: $160.00</p>
+            </li>
+            <li>
+                <h3>Mojarra Frita</h3>
+                <img src="menu/mojarra_frita.png" alt="Mojarra frita">
+                <p class="producto-descripcion">Platillo clásico, donde el pescado se fríe a la perfección, con su piel crujiente y carne jugosa. Acompañada de arroz esponjoso y una ensalada.</p>
+                <p class="producto-precio">Pequeña: $180.00</p>
+                <p class="producto-precio">Mediana: $230.00</p>
+                <p class="producto-precio">Grande: $280.00</p>
+            </li>
+            <li>
+                <h3>Mojarra al Mojo</h3>
+                <img src="menu/mojo_ajo.png" alt="Mojarra al Mojo">
+                <p class="producto-descripcion">Combinación de sabores suaves y aromáticos. El pescado se cocina en una salsa de ajo fresco y mantequilla. Acompañada de arroz y ensalada.</p>
+                <p class="producto-precio">Pequeña: $180.00</p>
+                <p class="producto-precio">Mediana: $230.00</p>
+                <p class="producto-precio">Grande: $280.00</p>
+            </li>
+            <li>
+                <h3>Mojarra a la Diabla</h3>
+                <img src="menu/mojarra_diabla.png" alt="Mojarra a la diabla">
+                <p class="producto-descripcion">Preparada con una salsa roja picante a base de chiles secos, ajo y especias, adquiere un sabor intenso y sabroso. Servida con arroz y ensalada fresca.</p>
+                <p class="producto-precio">Pequeña: $180.00</p>
+                <p class="producto-precio">Mediana: $230.00</p>
+                <p class="producto-precio">Grande: $280.00</p>
+            </li>
+            <li>
+                <h3>Pescaditos Dorados</h3>
+                <img src="menu/pescaditos_dorados.png" alt="Pecaditos Dorados">
+                <p class="producto-descripcion">Pequeños pescados se fríen a la perfección, creando una capa crujiente y dorada que resalta el sabor natural del pescado. Acompañados de arroz, papas, y una ensalada.</p>
+                <p class="producto-precio">Pequeña (3 pescaditos): $130.00</p>
+                <p class="producto-precio">Mediana (5 pescaditos): $170.00</p>
+                <p class="producto-precio">Grande (7 pescaditos): $210.00</p>
+            </li>
+            <li>
+                <h3>Empanadas de Camarón</h3>
+                <img src="menu/empanadas.png" alt="Empanadas">
+                <p class="producto-descripcion">Deliciosa preparación que combina una masa crujiente y dorada con un relleno sabroso de camarones cocidos y sazonados, cebolla, ajo, pimiento, cilantro y especias para darle un toque de sabor.</p>
+                <p class="producto-precio">$50.00 c/u</p>
+                <p class="producto-precio">+Queso: $20.00 c/u</p>
+            </li>
+            <li>
+                <h3>Pescaditos Empanizados</h3>
+                <img src="menu/pescaditos.png" alt="Pescaditos Empanizados">
+                <p class="producto-descripcion">Los pescaditos empanizados son una opción crujiente y jugosa, con una capa ligera de pan empanizado. Acompañados de arroz, papas, y una ensalada.</p>
+                <p class="producto-precio">Pequeña (3 pescaditos): $130.00</p>
+                <p class="producto-precio">Mediana (5 pescaditos): $170.00</p>
+                <p class="producto-precio">Grande (7 pescaditos): $210.00</p>
+            </li>
+        </ul>
+    </section>
+
+    <!--Seccion de platillos especiales de la casa-->
+    <section>
+    <h2 id="especialidades">ESPECIALIDADES</h2>
+        <ul class="productos">
+            <li>
+                <h3>Aguachile</h3>
+                <img src="menu/aguachile.png" alt="Aguachile">
+                <p class="producto-descripcion">Ingredientes secretos. Descúbrelos.</p>
+                <p class="producto-precio">Chico: $230.00</p>
+            </li>
+            <li>
+                <h3>Vuelve a la Vida</h3>
+                <img src="menu/vuelve_vida.png" alt="Vuelve a la Vida">
+                <p class="producto-descripcion">Ingredientes secretos. Descúbrelos.</p>
+                <p class="producto-precio">Chico: $160.00</p>
+            </li>
+            <li>
+                <h3>Cazuela de Mariscos</h3>
+                <img src="menu/cazuela_mariscos.png" alt="Cazuela de Mariscos">
+                <p class="producto-descripcion">Ingredientes secretos. Descúbrelos.</p>
+                <p class="producto-precio">Chico: $190.00</p>
+            </li>
+        </ul>
+    </section>
+
+    <!--Seccion de postres-->
+    <section>
+        <h2 id="postres">POSTRES</h2>
+        <p>Los tamaños de nuestros postres son los mostrados</p>
+        <ul class="productos">
+            <li>
+                <h3>Fresas con Crema</h3>
+                <img src="menu/fresas.png" alt="Fresas con crema">
+                <p class="producto-descripcion">Fresas frescas acompañadas de una crema dulce y espesa, hecha con crema batida, leche condensada y un toque de vainilla.</p>
+                <p class="producto-precio">$60.00</p>
+            </li>
+            <li>
+                <h3>Yogur con Frutas</h3>
+                <img src="menu/yogurth.png" alt="Yogurth">
+                <p class="producto-descripcion">Yogur natural o griego combinado con frutas frescas como fresas, plátano, mango, blueberries, piña (según tu elección).</p>
+                <p class="producto-precio">$50.00</p>
+            </li>
+            <li>
+                <h3>Tres Marías</h3>
+                <img src="menu/tres_marias.png" alt="Tres marias">
+                <p class="producto-descripcion">Helado cremoso con tres sabores: fresa, chocolate y vainilla, servido en una canasta de galleta, con cobertura de chocolate.</p>
+                <p class="producto-precio">$80.00</p>
+            </li>
+            <li>
+                <h3>Flan</h3>
+                <img src="menu/flan.png" alt="Flan">
+                <p class="producto-descripcion">Flan cremoso hecho con huevos, leche, azúcar y un toque de vainilla, cubierto con caramelo líquido.</p>
+                <p class="producto-precio">$50.00</p>
+            </li>
+            <li>
+                <h3>Pastel de Chocolate</h3>
+                <img src="menu/pastel.png" alt="Pastel">
+                <p class="producto-descripcion">Pastel esponjoso y húmedo de chocolate, con cobertura de chocolate, acompañado de mousse.</p>
+                <p class="producto-precio">$70.00</p>
+            </li>
+            <li>
+                <h3>Pay de Limón</h3>
+                <img src="menu/pay.png" alt="Pay">
+                <p class="producto-descripcion">Pay de base crujiente de galleta, relleno de una mezcla de jugo de limón, leche condensada y claras batidas, cubierto con merengue.</p>
+                <p class="producto-precio">$50.00</p>
+            </li>
+        </ul>
+    </section>
+
+    <!--Seccion de bebidas-->
+    <section>
+        <h2 id="bebidas">BEBIDAS</h2>
+        <p>Todas nuestras bebidas son servidas en vasos de 350 ml. Los cafés en tazas de 250ml.</p>
+        <ul class="productos">
+            <li>
+                <h3>Limonada</h3>
+                <img src="menu/limonada.png" alt="Limonada">
+                <p class="producto-descripcion">Bebida refrescante con jugo de limón, y un toque de menta.</p>
+                <p class="producto-precio">$25.00</p>
+            </li>
+            <li>
+                <h3>Agua Mineral</h3>
+                <img src="menu/agua_mineral.png" alt="Agua mineral">
+                <p class="producto-descripcion">Agua con gas, naturalmente efervescente.</p>
+                <p class="producto-precio">$25.00</p>
+            </li>
+            <li>
+                <h3>Refresco</h3>
+                <img src="menu/refresco.png" alt="Refresco">
+                <p class="producto-descripcion">Bebida carbonatada y azucarada en diversos sabores.</p>
+                <p class="producto-precio">$30.00</p>
+            </li>
+            <li>
+                <h3>Agua Natural</h3>
+                <img src="menu/agua_natural.png" alt="Agua">
+                <p class="producto-descripcion"> Tamarindo (pulpa de tamarindo), Horchata (arroz, canela, azúcar y vainilla) o Jamaica (flores de jamaica) </p>
+                <p class="producto-precio">$20.00</p>
+            </li>
+            
+            <li>
+                <h3>Café</h3>
+                <img src="menu/cafe.png" alt="Café">
+                <p class="producto-descripcion">Bebida caliente o fría hecha con café molido y agua, servida con azúcar al gusto.</p>
+                <p class="producto-precio">$20.00</p>
+            </li>
+            <li>
+                <h3>Capuchino</h3>
+                <img src="menu/capuchino.png" alt="Capuchino">
+                <p class="producto-descripcion">Café espresso con una capa espesa de leche vaporizada y espuma, espolvoreado con cacao o canela.</p>
+                <p class="producto-precio">$30.00</p>
+            </li>
+        </ul>
+    </section>
+    
+    <!--Seccion de paquetes-->
+    <section>
+        <h2 id="paquetes">PAQUETES</h2>
+        <ul class="productos">
+            <li>
+                <h3>PAQUETE FAMILIAR</h3>
+                <img src="menu/familiar.png" alt="Familiar">
+                <p class="producto-descripcion">8 tostadas del marisco de tu elección, 4 caldos de camarón, 4 filetes de pescado de tu elección, 4 pays de limón, y 4 refrescos. </p>
+                <p class="producto-precio">$1630.00</p>
+            </li>
+            <li>
+                <h3>PAQUETE ESPECIAL</h3>
+                <img src="menu/especial.png" alt="Especial">
+                <p class="producto-descripcion">Cóctel de camarón grande, Caldo de pescado grande, Vuelve a la vida, Pastel de chocolate y refresco.</p>
+                <p class="producto-precio">Incluye una empanada gratis</p>
+            </li>
+            <li>
+                <h3>PEQUE PAQUETE</h3>
+                <img src="menu/peque.png" alt="Pequeño">
+                <p class="producto-descripcion">Pescaditos dorados (3 piezas), una empanada, tres marías y una agua natural de tu elección.</p>
+                <p class="producto-precio">Incluye un 5% de descuento</p>
+            </li>
+        </ul>
+    </section>
+
+    </main>
+    <!--Pie de página, con direccionamiento a redes sociales y a pagínas principales, y descripción-->
+    <footer>
+        <div class="footerColumn">
+            <ul id="config">
+                <li><a href="https://www.instagram.com/" class="botones"><b>INSTAGRAM</b></a></li>
+                <li><a href="https://www.facebook.com/" class="botones"><b>FACEBOOK</b></a></li>
+                <li><a href="https://www.x.com/" class="botones"><b>X</b></a></li>
+            </ul>
+        </div>
+        <!--Datos mencionados al inicio de la página, pero que igualmente se repiten-->
+        <div class="footerColumn">
+            <ul id="config">
+                <li><img src="imagenes/logo.png" alt="logo del restaurante" id="logoFoo"></li>
+                <li>Ubicaci&oacute;n: Ap #398-2302 Mauris. St.</li>
+                <li>Atenci&oacute;n a clientes: 1-695-502-4576</li>
+                <li>Correo: coraliumrestaurant@gmail.com</li>
+                <li>Horario: 10:00 - 20:00</li>
+            </ul>
+            <ul id="config">
+                <li>Materia:Programaci&oacute;n web 1</li>
+                <li>© 2024. by Ariadna Denisse Garc&iacute;a Estrada</li>
+            </ul>
+            
+        <!--Enlace a las paginas principales-->
+        </div>
+        <div class="footerColumn">
+            <ul id="config">
+                <li><a href="index.html" class="botones"><b>INICIO</b></a></li>
+                <li><a href="menu.html" class="botones"><b>MEN&Uacute;</b></a></li>
+                <li><a href="galeria.html" class="botones"><b>GALER&Iacute;A</b></a></li>
+                <li><a href="promociones.html" class="botones"><b>PROMOCIONES</b></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
