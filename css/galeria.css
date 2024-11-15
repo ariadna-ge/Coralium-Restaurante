@@ -1,0 +1,62 @@
+/*ESTILO PARA LA PÁGINA DE INICIO*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.presentacion {
+  background-image: url(../galeria/platillo.png);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+
+h2{
+  font-weight: bolder;
+  font-size: 30px;
+  border: #2f2f4d solid;
+  background-color: #d8defc;
+  opacity: 0.8;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 0px 90px;
+}
+
+.descrip{
+  text-align: center;
+  display: inline-block;
+  padding: 0px 100px;
+  font-size: 20px;
+}
+
+.galeria{
+  width: 20%;
+  border-radius: 50%;
+  border: #7e85a9 solid;
+  padding: 10px;
+  margin-left: 20px;
+  transition: transform 0.3s ease-in-out;
+  /*animation: derecha 5s;*/
+}
+
+.galeria:hover {
+  transform: scale(0.9); /* Aplica el zoom al pasar el mouse (aumenta el tamaño al 120%) */
+}
+
+/*
+@keyframes derecha {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+[transition-style="in:wipe:right"] {
+  animation: 2.5s cubic-bezier(.25, 1, .30, 1) derecha both;
+}*/

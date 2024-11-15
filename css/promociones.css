@@ -1,0 +1,64 @@
+/*ESTILO PARA LA PAGINA DE PROMOCIONES*/
+.presentacion {
+  background-image: url(../promociones/platillo.png);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+
+.promociones {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.texto {
+  max-width: 45%;
+  font-size: 20px;
+}
+
+#promo{
+  max-width: 50%;
+}
+
+.parejas {
+  width: 30%;
+  display: inline-block;
+  padding: 10px;
+  /*animation: zoom 10s infinite ease-in-out;*/
+  margin-left: 2%;
+  transition: transform 5s ease-in-out;
+}
+
+.parejas:hover {
+  transform: scale(1.2); 
+}
+
+/*animación para las imagenes de las promociones*/
+/*realiza un zoom y posteriormente vuelve a su tamaño original
+@keyframes zoom {
+  0% { transform: scale(1);}
+  50% { transform: scale(1.1);}
+  100% { transform: scale(1);}
+}*/
+
+#info{
+  margin: 36px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#nombre {
+  color: #626970;
+  font-weight: bold;
+  /*animation: cambiarColor 5s linear infinite;*/
+}
+
+/* animación para cambiar el color del texto
+@keyframes cambiarColor {
+  0% { color: #000000; }
+  50% { color: #4c79bb; }
+  100% { color: #000000; }
+}*/
